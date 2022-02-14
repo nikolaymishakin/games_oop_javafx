@@ -33,6 +33,7 @@ public class CatchBall extends Application {
                         case LEFT : deltaX = -5;
                         case UP : deltaY = -5;
                         case DOWN : deltaY = 5;
+                        default:
                     }
                     ball.setCenterX(ball.getTranslateX() + ball.getCenterX() + deltaX);
                     ball.setCenterY(ball.getTranslateY() + ball.getCenterY() + deltaY);
